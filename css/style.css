@@ -1,0 +1,97 @@
+/* Page Styles */
+
+html {
+  font-size: 13px;
+}
+
+body {
+  padding: 2rem;
+  background: hsla(176, 18%, 95%, 1);
+  font-family: 'Helvetica', sans-serif;
+  color: #fffff;
+  font-weight: 300;
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+.name h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.name h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Garamond', serif;
+}
+
+.name {
+
+  padding: .5rem .5rem 0rem .5rem;
+  background: #F1C1CA;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: white;
+
+}
+
+.quote h2 {
+  padding: 3rem;
+  font-size: 16px;
+  font-style: oblique;
+  line-height: 1.5;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+.information {
+  margin-bottom: 1.5rem;
+  line-height: 2.77;
+  font-size: 16px;
+  background-color: white;
+}
+
+.description {
+  line-height: 1.5;
+  padding: 3rem;
+  font-size: 16px;
+  background-color: white;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+li:nth-child(even) {
+  	padding-left: 1rem;
+    background: hsla(348,64%,50%, .3);
+}
+li:nth-child(odd) {
+  padding-left: 1rem;
+    background-color: white;
+}
+strong {
+  font-weight: bold;
+}
